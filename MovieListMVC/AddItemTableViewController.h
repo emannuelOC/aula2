@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AddItemTableViewController.h
 //  MovieListMVC
 //
 //  Created by Emannuel Carvalho on 4/16/16.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@class Library;
 
-@interface ViewController : UIViewController
-
-
+@interface AddItemTableViewController : UITableViewController
+@property Library *library;
 @end
-

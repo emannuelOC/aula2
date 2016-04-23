@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		C993555E1CC2826600D7B429 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C993555D1CC2826600D7B429 /* main.m */; };
 		C99355611CC2826600D7B429 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C99355601CC2826600D7B429 /* AppDelegate.m */; };
-		C99355641CC2826600D7B429 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C99355631CC2826600D7B429 /* ViewController.m */; };
 		C99355671CC2826600D7B429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99355651CC2826600D7B429 /* Main.storyboard */; };
 		C99355691CC2826600D7B429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99355681CC2826600D7B429 /* Assets.xcassets */; };
 		C993556C1CC2826600D7B429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C993556A1CC2826600D7B429 /* LaunchScreen.storyboard */; };
 		C99355771CC2826600D7B429 /* MovieListMVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C99355761CC2826600D7B429 /* MovieListMVCTests.m */; };
 		C99355821CC2826600D7B429 /* MovieListMVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C99355811CC2826600D7B429 /* MovieListMVCUITests.m */; };
+		C99355911CC28E6800D7B429 /* AddItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C99355901CC28E6800D7B429 /* AddItemTableViewController.m */; };
+		C99355941CC2A8BD00D7B429 /* ItemListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C99355931CC2A8BD00D7B429 /* ItemListTableViewController.m */; };
+		C99355971CC2C3B700D7B429 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C99355961CC2C3B700D7B429 /* ItemDetailViewController.m */; };
+		C993559A1CC2C5C800D7B429 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = C99355991CC2C5C800D7B429 /* Item.m */; };
+		C993559D1CC2C85700D7B429 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = C993559C1CC2C85700D7B429 /* Book.m */; };
+		C99355A01CC2CAAE00D7B429 /* Series.m in Sources */ = {isa = PBXBuildFile; fileRef = C993559F1CC2CAAE00D7B429 /* Series.m */; };
+		C99355A31CC2CB5800D7B429 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = C99355A21CC2CB5800D7B429 /* Movie.m */; };
+		C99355AA1CC2CE0A00D7B429 /* Library.m in Sources */ = {isa = PBXBuildFile; fileRef = C99355A91CC2CE0A00D7B429 /* Library.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +46,6 @@
 		C993555D1CC2826600D7B429 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C993555F1CC2826600D7B429 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C99355601CC2826600D7B429 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C99355621CC2826600D7B429 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C99355631CC2826600D7B429 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C99355661CC2826600D7B429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C99355681CC2826600D7B429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C993556B1CC2826600D7B429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,22 @@
 		C993557D1CC2826600D7B429 /* MovieListMVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieListMVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99355811CC2826600D7B429 /* MovieListMVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieListMVCUITests.m; sourceTree = "<group>"; };
 		C99355831CC2826600D7B429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C993558F1CC28E6800D7B429 /* AddItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemTableViewController.h; sourceTree = "<group>"; };
+		C99355901CC28E6800D7B429 /* AddItemTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemTableViewController.m; sourceTree = "<group>"; };
+		C99355921CC2A8BD00D7B429 /* ItemListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemListTableViewController.h; sourceTree = "<group>"; };
+		C99355931CC2A8BD00D7B429 /* ItemListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemListTableViewController.m; sourceTree = "<group>"; };
+		C99355951CC2C3B700D7B429 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
+		C99355961CC2C3B700D7B429 /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
+		C99355981CC2C5C800D7B429 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		C99355991CC2C5C800D7B429 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		C993559B1CC2C85700D7B429 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		C993559C1CC2C85700D7B429 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		C993559E1CC2CAAE00D7B429 /* Series.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Series.h; sourceTree = "<group>"; };
+		C993559F1CC2CAAE00D7B429 /* Series.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Series.m; sourceTree = "<group>"; };
+		C99355A11CC2CB5800D7B429 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		C99355A21CC2CB5800D7B429 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		C99355A81CC2CE0A00D7B429 /* Library.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Library.h; sourceTree = "<group>"; };
+		C99355A91CC2CE0A00D7B429 /* Library.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Library.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +122,9 @@
 		C993555B1CC2826600D7B429 /* MovieListMVC */ = {
 			isa = PBXGroup;
 			children = (
-				C993555F1CC2826600D7B429 /* AppDelegate.h */,
-				C99355601CC2826600D7B429 /* AppDelegate.m */,
-				C99355621CC2826600D7B429 /* ViewController.h */,
-				C99355631CC2826600D7B429 /* ViewController.m */,
-				C99355651CC2826600D7B429 /* Main.storyboard */,
-				C99355681CC2826600D7B429 /* Assets.xcassets */,
-				C993556A1CC2826600D7B429 /* LaunchScreen.storyboard */,
-				C993556D1CC2826600D7B429 /* Info.plist */,
+				C99355A51CC2CD2400D7B429 /* Controllers */,
+				C99355A61CC2CD3900D7B429 /* View */,
+				C99355A71CC2CD4000D7B429 /* Model */,
 				C993555C1CC2826600D7B429 /* Supporting Files */,
 			);
 			path = MovieListMVC;
@@ -117,6 +133,11 @@
 		C993555C1CC2826600D7B429 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C993556A1CC2826600D7B429 /* LaunchScreen.storyboard */,
+				C993556D1CC2826600D7B429 /* Info.plist */,
+				C993555F1CC2826600D7B429 /* AppDelegate.h */,
+				C99355601CC2826600D7B429 /* AppDelegate.m */,
+				C99355681CC2826600D7B429 /* Assets.xcassets */,
 				C993555D1CC2826600D7B429 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +159,44 @@
 				C99355831CC2826600D7B429 /* Info.plist */,
 			);
 			path = MovieListMVCUITests;
+			sourceTree = "<group>";
+		};
+		C99355A51CC2CD2400D7B429 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C99355951CC2C3B700D7B429 /* ItemDetailViewController.h */,
+				C99355961CC2C3B700D7B429 /* ItemDetailViewController.m */,
+				C99355921CC2A8BD00D7B429 /* ItemListTableViewController.h */,
+				C99355931CC2A8BD00D7B429 /* ItemListTableViewController.m */,
+				C993558F1CC28E6800D7B429 /* AddItemTableViewController.h */,
+				C99355901CC28E6800D7B429 /* AddItemTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C99355A61CC2CD3900D7B429 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C99355651CC2826600D7B429 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C99355A71CC2CD4000D7B429 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C99355981CC2C5C800D7B429 /* Item.h */,
+				C99355991CC2C5C800D7B429 /* Item.m */,
+				C993559B1CC2C85700D7B429 /* Book.h */,
+				C993559C1CC2C85700D7B429 /* Book.m */,
+				C993559E1CC2CAAE00D7B429 /* Series.h */,
+				C993559F1CC2CAAE00D7B429 /* Series.m */,
+				C99355A11CC2CB5800D7B429 /* Movie.h */,
+				C99355A21CC2CB5800D7B429 /* Movie.m */,
+				C99355A81CC2CE0A00D7B429 /* Library.h */,
+				C99355A91CC2CE0A00D7B429 /* Library.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +329,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C99355641CC2826600D7B429 /* ViewController.m in Sources */,
 				C99355611CC2826600D7B429 /* AppDelegate.m in Sources */,
+				C99355A31CC2CB5800D7B429 /* Movie.m in Sources */,
+				C99355911CC28E6800D7B429 /* AddItemTableViewController.m in Sources */,
 				C993555E1CC2826600D7B429 /* main.m in Sources */,
+				C993559D1CC2C85700D7B429 /* Book.m in Sources */,
+				C99355971CC2C3B700D7B429 /* ItemDetailViewController.m in Sources */,
+				C99355A01CC2CAAE00D7B429 /* Series.m in Sources */,
+				C993559A1CC2C5C800D7B429 /* Item.m in Sources */,
+				C99355941CC2A8BD00D7B429 /* ItemListTableViewController.m in Sources */,
+				C99355AA1CC2CE0A00D7B429 /* Library.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
